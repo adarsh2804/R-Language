@@ -324,7 +324,7 @@ hist(Boston$nox, main = "Histogram of NOX", xlab = "NOX",
      col = "skyblue2")
 
 
-setwd("C:\\Users\\Gourab\\Desktop\\R")
+setwd("path to store image")
 getwd()
 
 
