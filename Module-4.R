@@ -6,7 +6,7 @@
 #1. The class() function
 #=======================================================================================================
 
-cars <- read.csv("cars.csv")
+cars <- read.csv("datasets/cars.csv")
 
 ?class
 x <- '5'
