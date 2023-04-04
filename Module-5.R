@@ -55,7 +55,7 @@ data1
 #3. COMPLETE CASE ANALYSIS
 #=======================================================================================================
 
-fram <- read.csv("framingham.csv")
+fram <- read.csv("datasets/framingham.csv")
 complete.cases(fram)
 
 View(fram)
