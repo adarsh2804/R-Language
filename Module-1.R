@@ -8,7 +8,7 @@
 
 getwd()                                 #get the working directory
 setwd("working directory path")  #set the working directory
-cars = read.csv("cars.csv")             #read the data
+cars = read.csv("datasets/cars.csv")             #read the data
 
 
 #========================================================================================================
