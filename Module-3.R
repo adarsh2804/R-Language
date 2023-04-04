@@ -6,7 +6,7 @@
 #1. SUMMARIES AND STATISTICS
 #=======================================================================================================
 
-cars <- read.csv("cars.csv")
+cars <- read.csv("datasets/cars.csv")
 
 str(cars)
 
