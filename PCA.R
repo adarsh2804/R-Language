@@ -1,4 +1,4 @@
-data = read.csv("cars.csv")
+data = read.csv("datasets/cars.csv")
 
 
 # 2-dimension case
