@@ -10,7 +10,7 @@
 
 
 # Load text file into local variable called 'data'
-data = read.delim(file = 'purchases.txt', header = FALSE, sep = '\t', dec = '.')
+data = read.delim(file = 'datasets/purchases.txt', header = FALSE, sep = '\t', dec = '.')
 
 # Add headers and interpret the last column as a date, extract year of purchase
 colnames(data) = c('customer_id', 'purchase_amount', 'date_of_purchase')
