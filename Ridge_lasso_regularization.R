@@ -3,7 +3,7 @@ require(glmnet)
 library(ISLR)
 
 
-banks = read.csv('BANKS-large.csv')
+banks = read.csv('datasets/BANKS-large.csv')
 View(banks)
 banks = banks[-1]
 x = banks[-1]
