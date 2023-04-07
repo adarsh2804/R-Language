@@ -27,5 +27,5 @@ Graph_v1 = function(data)
   
 }
 
-attrition = read.csv("attrition.csv")
+attrition = read.csv("datasets/attrition.csv")
 Graph_v1(attrition)
