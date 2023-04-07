@@ -40,7 +40,7 @@ ChiTest <- function(data, cols = names(data), target)
 }
 
 # Test cases for function
-attrition = read.csv("attrition.csv")
+attrition = read.csv("datasets/attrition.csv")
 attrition$EnvironmentSatisfaction = as.factor(attrition$EnvironmentSatisfaction)
 attrition$JobInvolvement = as.factor(attrition$JobInvolvement)
 ChiTest(attrition, target = "Attrition")
