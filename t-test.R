@@ -41,6 +41,6 @@ TTest <- function(data, cols = names(data), target)
 }
 
 # Test cases for function 1
-attrition = read.csv("attrition.csv")
+attrition = read.csv("datasets/attrition.csv")
 TTest(attrition, target = "Attrition")
 TTest(attrition, c("Age", "DistanceFromHome"), "Attrition")
