@@ -5,7 +5,7 @@
 install.packages("jpeg")
 library(jpeg)
 
-img = readJPEG("demo.jpg")     # 816X1088 size
+img = readJPEG("images/demo.jpg")     # 816X1088 size
 dim(img)
 
 r = img[,,1]
@@ -35,4 +35,4 @@ pca_img = array(c(R,G,B), dim = c(dim(img)[1:2],3))
 
 summary(pca_img)
 
-writeJPEG(pca_img, "demo_write.jpg")
+writeJPEG(pca_img, "images/compressed_image.jpg")
